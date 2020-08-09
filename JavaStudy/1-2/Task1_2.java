@@ -24,7 +24,7 @@ System.out.println(strArray[1]);
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [2番目の要素と5番目の要素の値を表示]
+        // [2番目の要素と5番目の要素の合計の値を表示]
         System.out.println(intArray[1] + intArray[4]);
 
     }
