@@ -2,8 +2,8 @@ public class Task1_4 {
 
     // 定数（条件）
     // ① 名前とパスワードの定数を定義してください。
-private static final String name = "alice";
-private static final String pass = "pass";
+private static final String CONST_MSG_NAME = "alice";
+private static final String CONST_MSG_PASS = "pass";
 
     // 補足:
     //   定数は②〜⑤で使い回すために定義しておきます。
@@ -20,18 +20,18 @@ private static final String pass = "pass";
     public static void main(String[] args) {
         // 以下の変数「name（名前）」「pass（パスワード）」を使用して、②〜⑤の条件を満たす処理を記述してください。
         // 名前とパスワードは画面からの入力値だと想定してみましょう。
-         String name = "alice";
-         String pass = "pass";
+         String CONST_MSG_NAME = "alice";
+         String CONST_MSG_PASS = "pass";
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
-if (name.equals("alice") && pass.equals("pass")) {
+if (CONST_MSG_NAME.equals("alice") && CONST_MSG_PASS.equals("pass")) {
     System.out.println("ログイン成功です。");
 
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-} else if (name.equals("alice")) {
+} else if (CONST_MSG_NAME.equals("alice")) {
 System.out.println("パスワードに誤りがあります。");
 
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-} else if (pass.equals("pass")) {
+} else if (CONST_MSG_PASS.equals("pass")) {
     System.out.println("名前に誤りがあります。");
 
         // ⑤ 名前もパスワードも間違っていた場合は、「 入力情報に誤りがあります。 」と出力してください。
